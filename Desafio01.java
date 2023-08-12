@@ -15,7 +15,7 @@ abstract class Poligono {
 
     @Override
     public String toString() {
-        return nome + " de lado " + lado + " cm e área " + calcularArea() + " cm²";
+        return nome + " de lado " + lado + "cm e área " + calcularArea() + "cm²";
     }
 }
 
@@ -80,7 +80,7 @@ public class Desafio01 {
             areaTotal += poligono.calcularArea();
         }
 
-        System.out.println("\nÁrea total: " + areaTotal + " cm²");
+        System.out.println("\nÁrea total: " + areaTotal + "cm²");
     
         scanner.close();
     }
